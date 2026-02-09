@@ -1,0 +1,14 @@
+[
+  {"id":"1","name":"House Blend","slug":"house-blend","price":12.99,"image":"/images/house-blend.jpg","category":"Coffee Beans","description":"Smooth medium roast. Notes of chocolate and nuts. Perfect for every day.","stock":50},
+  {"id":"2","name":"Espresso Roast","slug":"espresso-roast","price":14.99,"image":"/images/espresso-roast.jpg","category":"Coffee Beans","description":"Dark roast for rich espresso. Bold and full-bodied.","stock":45},
+  {"id":"3","name":"Single Origin Ethiopia","slug":"single-origin-ethiopia","price":18.99,"image":"/images/single-origin-ethiopia.jpg","category":"Coffee Beans","description":"Light roast with floral and berry notes. Washed process.","stock":30},
+  {"id":"4","name":"Decaf House","slug":"decaf-house","price":13.99,"image":"/images/decaf-house.jpg","category":"Coffee Beans","description":"Swiss water decaf. Same great taste, no caffeine.","stock":35},
+  {"id":"5","name":"Iced Latte","slug":"iced-latte","price":5.49,"image":"/images/iced-latte.jpg","category":"Drinks","description":"Double shot espresso over ice with steamed milk. Served cold.","stock":99},
+  {"id":"6","name":"Cappuccino","slug":"cappuccino","price":4.99,"image":"/images/cappuccino.jpg","category":"Drinks","description":"Espresso with foamed milk. Classic and creamy.","stock":99},
+  {"id":"7","name":"Cold Brew","slug":"cold-brew","price":5.99,"image":"/images/cold-brew.jpg","category":"Drinks","description":"Slow-steeped for 18 hours. Smooth and less acidic.","stock":99},
+  {"id":"8","name":"Mocha","slug":"mocha","price":5.99,"image":"/images/mocha.jpg","category":"Drinks","description":"Espresso with chocolate and steamed milk. Topped with whip.","stock":99},
+  {"id":"9","name":"Butter Croissant","slug":"butter-croissant","price":3.99,"image":"/images/butter-croissant.jpg","category":"Pastries","description":"Fresh-baked buttery croissant. Flaky and golden.","stock":40},
+  {"id":"10","name":"Chocolate Muffin","slug":"chocolate-muffin","price":4.49,"image":"/images/chocolate-muffin.jpg","category":"Pastries","description":"Rich chocolate muffin with a soft crumb. Perfect with coffee.","stock":35},
+  {"id":"11","name":"Cinnamon Roll","slug":"cinnamon-roll","price":4.99,"image":"/images/cinnamon-roll.jpg","category":"Pastries","description":"Warm cinnamon roll with cream cheese frosting.","stock":30},
+  {"id":"12","name":"ZunCafe Tumbler","slug":"zuncafe-tumbler","price":24.99,"image":"/images/zuncafe-tumbler.jpg","category":"Merch","description":"Insulated 16oz tumbler. Keeps hot for 4 hours, cold for 12.","stock":25}
+]
