@@ -1,16 +1,10 @@
 import { Box, Container, Typography, Button } from '@mui/material';
 import Link from '@/components/Link';
 import { FeaturedProducts } from '@/components/FeaturedProducts';
-import type { Product } from '@/types';
-
-async function getProducts(): Promise<Product[]> {
-  const res = await fetch('http://localhost:3000/api/products', { cache: 'no-store' });
-  if (!res.ok) return [];
-  return res.json();
-}
+import { getProducts } from '@/lib/products';
 
 export default async function HomePage() {
-  const products = await getProducts();
+  const products = getProducts();
 
   return (
     <>

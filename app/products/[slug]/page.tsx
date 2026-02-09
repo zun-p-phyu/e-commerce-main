@@ -3,13 +3,7 @@ import { Box, Container, Typography, Button } from '@mui/material';
 import Image from 'next/image';
 import Link from '@/components/Link';
 import { AddToCartButton } from '@/app/products/[slug]/AddToCartButton';
-import type { Product } from '@/types';
-
-async function getProduct(slug: string): Promise<Product | null> {
-  const res = await fetch(`http://localhost:3000/api/products/${slug}`, { cache: 'no-store' });
-  if (!res.ok) return null;
-  return res.json();
-}
+import { getProductBySlug } from '@/lib/products';
 
 export default async function ProductDetailPage({
   params,
@@ -17,7 +11,7 @@ export default async function ProductDetailPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const product = await getProduct(slug);
+  const product = getProductBySlug(slug);
   if (!product) notFound();
 
   return (
